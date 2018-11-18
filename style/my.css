@@ -1,0 +1,168 @@
+body{background:url("../img/bj.jpg");width: 100%;height: 100%}
+img{border:none}
+ul,li{list-style:none}
+a{color:#333;font-size:14px; text-decoration: none;}
+a:hover{text-decoration:underline;}
+.cl:after{visibility:hidden;display:block;font-size:0;;clear:both;height:0}.cl{zoom:1}
+
+header{width: 100%;height: 60px;}
+/*文字滚动*/
+#gd{
+    top: 10px;
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    border: 2px dotted;
+    text-align: center;
+    background: url("../img/bj2.jpg")no-repeat;
+    border-radius: 20px;
+}
+#gd>span{
+    font-size: 25px;
+    color: red;
+
+}
+.claer{zoom: 1}
+.claer:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*设置圆效果*/
+#xz{padding: 20px;position: relative;float: left;
+    margin-left: 20px;cursor: move;z-index: 10;
+top:50px;width: 400px;height: 400px;
+}
+#dy{width:240px;
+    height:240px;
+    overflow:hidden;
+    border-radius:120px;
+    border:solid #333 1px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    z-index: 10;
+}
+#x1,#x2,#x3,#x4{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius:30px;
+    text-align: center;
+    background-size: contain;
+    z-index: 10;
+}
+#x1{background: url("../img/q1.jpg")}
+#x2{background: url("../img/q2.jpg")}
+#x3{background: url("../img/q3.jpg")}
+#x4{background: url("../img/q4.jpg")}
+.wz{display:block;font-size: 30px;font-weight: bold;margin-top: 10px}
+.wrap{width:750px;float: right;margin-top:20px;margin-right: 20px;}
+/*猪鼠标放上去可移动*/
+#tp{position: absolute;left: 220px;top:550px;cursor: move;z-index: 12 }
+#tp>img{width:150px;height: 120px}
+/*字体显示与隐藏实现队列效果*/
+#wzxs{
+    position: absolute;
+    width: 100px;
+    top: 100px;
+    left: 410px;
+    background: url("../img/bj3.jpg");
+    padding-bottom: 20px;
+}
+.dd{
+/*   display: none;*/
+    margin-left: 22px;
+    font-size: 40px;
+    margin-top: 4px;
+    padding: 8px 6px;
+    float: left;
+
+}
+#wz1{color: red;margin-top: 33px}
+#wz2{color: orange}
+#wz3{color: yellow}
+#wz4{color: green}
+#wz5{color: blue}
+#wz6{width: 52px;font-size: 14px;color: purple;padding-bottom: 20px}
+
+/*时间*/
+#time{text-align: center;box-sizing: border-box;padding: 20px;  background:url("../img/4.jpg")no-repeat;
+    position: absolute;  width: 100%;  height: 100%;border-radius: 50%}
+.side_top{height: 100px;line-height: 100px;margin-top: 20px}
+.side_top .olds{font-size: 60px;color: red;display: inline-block;width: 60px;height: 60px;
+    margin-right: 10px;text-shadow:3px 3px 0 #000;}
+.timeShow .year,.month,.day{color:blue;font-size: 25px}
+.timeShow .year{display: inline-block;width: 60px;height: 34px;}
+.animate1{animation:theFir 2s}
+@keyframes theFir {
+    0%{transform: rotate(-10deg)}
+    5%{transform: rotate(10deg)}
+    10%{transform: rotate(-10deg)}
+    15%{transform: rotate(10deg)}
+    20%{transform: rotate(-10deg)}
+    25%{transform: rotate(10deg)}
+    30%{transform:rotate(-10deg) }
+    35%{transform: rotate(10deg)}
+    40%{transform:rotate(-10deg) }
+    45%{transform: rotate(10deg)}
+    50%{transform: rotate(-10deg)}
+    55%{transform: rotate(10deg)}
+    60%{transform: rotate(-10deg)}
+    65%{transform: rotate(10deg)}
+    70%{transform: rotate(-10deg)}
+    75%{transform: rotate(10deg)}
+    80%{transform: rotate(-10deg)}
+    85%{transform: rotate(10deg)}
+    90%{transform: rotate(-10deg)}
+   95%{transform: rotate(10deg)}
+    100%{transform: rotate(0deg)}
+}
+
+.animate2{animation:theSec 2s}
+@keyframes theSec {
+    0%{transform: scale(1.5)}
+    20%{transform: scale(1)}
+    40%{transform: scale(1.5)}
+    60%{transform: scale(1)}
+    80%{transform: scale(1.5)}
+    100%{transform: scale(1)}
+}
+.animate3{animation:rotate 2s infinite}
+@keyframes rotate{
+    0%{transform:rotateY(0deg)}
+    100%{transform:rotateY(360deg)}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
